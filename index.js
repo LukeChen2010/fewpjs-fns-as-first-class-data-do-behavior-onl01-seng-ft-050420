@@ -15,7 +15,17 @@ function handleClick(e) {
 function greet(time) 
 {
   let hr = time.split(":")
-  if ( hr < 12) return "Good Morning"
-  if ( hour > 17) return "Good Evening"
-  return "Good Afternoon"
+  
+  if ( hr < 12) 
+  {
+    return "Good Morning"
+  }
+  else if ( hr > 17)
+  {
+    return "Good Evening"
+  }
+  else
+  {
+    return "Good Afternoon"
+  }
 }
