@@ -14,7 +14,7 @@ function handleClick(e) {
 
 function greet(time) 
 {
-  let hr = time.split(":").
+  let hr = parseFloat(time.split(":"))
   
   if ( hr < 12) 
   {
